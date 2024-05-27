@@ -35,9 +35,9 @@ class Router {
                     return;
                 }
 
-                require PARTIAL_PATH . '/header.php';
+                require PARTIAL_PATH . 'header.php';
                 $this->callAction($action);
-                require PARTIAL_PATH . '/footer.php';
+                require PARTIAL_PATH . 'footer.php';
                 return;
             }
         }
